@@ -1,0 +1,128 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[left=0.55in,right=0.55in,top=0.6in,bottom=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\setlength{\tabcolsep}{0in}
+\linespread{0.88}
+
+\setlist[itemize]{itemsep=0pt, topsep=2pt, leftmargin=*}
+
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+\titleformat{\section}
+  {\scshape\raggedright\normalsize}
+  {}{0em}{}[\titlerule]
+
+\begin{document}
+
+%-------------------- HEADING --------------------
+\begin{center}
+    {\LARGE \scshape Smera Rawal} \\
+    Chennai, India \\
+    \href{mailto:smerarawal@gmail.com}{smerarawal@gmail.com} $|$ 
+    \href{https://www.linkedin.com/in/smera-rawal}{LinkedIn}
+\end{center}
+
+%-------------------- EDUCATION --------------------
+\section{Education}
+
+\textbf{Vellore Institute of Technology, Chennai}  (Pursuing) \hfill 2024 -- 2028 \\
+B.Tech in Computer Science and Data Science \\
+Relevant Coursework: Operating Systems, DBMS, OOPs, Data Structures, Computer Networks
+
+%-------------------- TECHNICAL SKILLS --------------------
+\section{Technical Skills}
+
+\textbf{Languages:} Python, C, C++, Java \\
+\textbf{Web:} HTML, CSS, JavaScript \\
+\textbf{Machine Learning \& Deep Learning:} Supervised \& Unsupervised Learning, Feature Engineering, LSTM, CNN, Transformers, Neural Networks, GenAI, Reinforcement Learning, NLP \\
+\textbf{Libraries/Frameworks:} NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, Keras \\
+\textbf{Tools:} Git, Linux, VS Code
+
+%-------------------- RESEARCH --------------------
+\section{Research and Experience}
+
+\noindent\textbf{Learning Stellar Differential Rotation and Spot Evolution from Photometric Time Series (Ongoing)}
+\begin{itemize}
+    \item Investigating differential rotation and starspot evolution from photometric light curves using deep sequence modeling.
+    \item Rotational modulation and spot migration via LSTM, 1D CNN and Transformers for long temporal dependencies.
+    \item Applying Lomb--Scargle periodogram for irregular time-series frequency extraction and frequency-domain splitting.
+    \item Designing sliding-window temporal representations and evaluating robustness under synthetic noise injection.
+    \item Interpreting learned latent representations to study astrophysical rotational dynamics and variability patterns.
+\end{itemize}
+\noindent\textbf{Quantitative Finance Research Consultant at WorldQuant}
+\begin{itemize}
+    \item Developed multiple alpha signals based on market microstructure and statistical patterns in financial time-series
+    \item Achieved Maximum Sharpe Ratio of 2.66, returns of over 24 while maintaining a drawdown less than 5%.
+    \item Applied statistical validation techniques including Sharpe ratio, IC and turnover analysis
+\end{itemize}
+\noindent\textbf{Data Analytics Intern, Unessa Foundation} 
+\begin{itemize}
+    \item Analyzed and processed datasets to extract actionable insights supporting organizational initiatives.
+    \item Performed data cleaning, visualization, and reporting to improve decision-making efficiency.
+\end{itemize}
+
+%-------------------- PROJECTS --------------------
+\section{Projects}
+
+\noindent\textbf{Astronomical Light Curve Classification using LSTM vs MLP vs 1D CNN}
+\begin{itemize}
+    \item Built an end-to-end stellar time-series pipeline with preprocessing, normalization and synthetic variability modeling.
+    \item Implemented and compared LSTM, MLP and 1D CNN architectures for star classification performance benchmarking.
+    \item Analyzed temporal dependency capture using multiple sliding-window configurations and feature scaling strategies.
+    \item Injected synthetic Gaussian noise and conducted hyperparameter tuning to evaluate robustness.
+\end{itemize}
+
+\noindent\textbf{ML-Based Drug Repurposing Pipeline (GNN + LLMs)}
+\begin{itemize}
+    \item Built an end-to-end pipeline combining GNN-based binding affinity prediction with Tanimoto similarity on ChEMBL
+    \item Modeled molecules as graphs using RDKit and trained a GIN network to predict pChEMBL values
+    \item Integrated LangChain for biomedical knowledge extraction and interpretable reasoning of drug--target interactions
+    \item Generated ranked repurposing candidates with explainable scoring and visualization
+\end{itemize}
+
+
+\noindent\textbf{Visual Financial Intelligence System (ViT + RAG)}
+\begin{itemize}
+    \item Multimodal financial analysis pipeline using Vision Transformer (ViT) to extract patterns from stock chart images.
+    \item Retrieval-Augmented Generation (RAG) system using FAISS for semantic retrieval of financial knowledge.
+    \item Interpretable trading insights using large language models (LLMs), improving explainability of technical analysis.
+\end{itemize}
+
+%-------------------- LEADERSHIP --------------------
+\section{Leadership \& Activities}
+
+\noindent\textbf{Logistics Lead, TEDx VITC}
+\begin{itemize}
+    \item Managed event logistics, vendor coordination and cross-functional execution for large-scale campus events.
+\end{itemize}
+
+\noindent\textbf{Management and Outreach Member, Google Developer's Group}
+\begin{itemize}
+    \item Organized technical events, workshops and external collaborations to foster developer engagement.
+\end{itemize}
+
+\noindent\textbf{Sponsorships and Outreach Member, Enactus and Business Innovation Community}
+\begin{itemize}
+    \item Contributed to ideation sessions, startup case discussions and innovation-driven problem solving initiatives.
+\end{itemize}
+\textbf{Content Writer, Sahayatha Club} 
+\begin{itemize}
+    \item Created engaging and informative content for social initiatives, increasing outreach and audience engagement.
+\end{itemize}
+%-------------------- CERTIFICATIONS --------------------
+\section{Certifications}
+
+     WorldQuant Gold - IQC 2026, Generative AI Certification - IBM, Machine Learning, Stanford University (Andrew Ng)
+
+
+%-------------------- RESEARCH INTERESTS --------------------
+\section{Relevant Academic Interests}
+
+Scientific Machine Learning, Time-Series Modeling, Stellar Variability Analysis, Representation Learning, Robust Deep Sequence Models
+
+\end{document}
